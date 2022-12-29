@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    pad: 0;
+}
+
+/*BACKGROUND DESIGN*/
+.backgroundImage{
+
+    background:rgba(1, 1, 1, 0.440) url(../images/lewisBG.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-blend-mode: darken;
+
+    height: 100vh;
+
+
+}
+
+
+/*LOGO DESIGN*/
+
+header{
+    background-color: rgb(43, 139, 139);
+}
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*CONTAINER NAV BAR DESIGN*/
+.navBarContainer{
+    width: 85%;
+    margin: 0 auto;
+    padding: 7px;
+
+}
+
+
+.logoImage{
+    float: left;
+}
+
+.principalNavBar{
+    float: right;
+}
+
+.principalNavBar .UnorderListNavBar{
+    margin: 0 auto;
+    padding: 0;
+
+    list-style: none;
+}
+
+.principalNavBar .ListNavBar{
+    display: inline-block;
+
+    margin-left: 120px;
+}
